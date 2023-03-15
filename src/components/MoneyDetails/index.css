@@ -1,0 +1,77 @@
+.money-details-container {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 2em;
+
+  display: flex;
+  justify-content: space-between;
+}
+.md-container {
+  border: 2px solid #84cc16;
+  background-color: #ecfccb;
+  padding: 2em;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  min-width: 260px;
+  width: 380px;
+  margin-right: 2em;
+}
+.md-container:last-child {
+  margin-right: 0;
+}
+.icon {
+  width: 80px;
+  /* height: 80px; */
+  margin-right: 2em;
+}
+.your-para {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #7e858e;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.balance-amount {
+  color: #475569;
+  font-size: 2.4rem;
+  font-weight: 700;
+  margin-bottom: 0;
+  margin-top: 0.5em;
+}
+@media all and (max-width: 890px) {
+  .md-container {
+    min-width: 180px;
+    width: 250px;
+    padding: 1em;
+  }
+  .icon {
+    width: 50px;
+    /* height: 80px; */
+    margin-right: 2em;
+  }
+  .your-para {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #7e858e;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  .balance-amount {
+    color: #475569;
+    font-size: 2.1rem;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-top: 0.5em;
+  }
+}
+@media all and (max-width: 767px) {
+  .money-details-container {
+    flex-direction: column;
+  }
+  .md-container {
+    margin-bottom: 2em;
+    margin-right: 0;
+    width: 100%;
+  }
+}

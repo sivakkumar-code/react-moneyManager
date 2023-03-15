@@ -1,0 +1,39 @@
+.list-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /* border: 2px solid #d7dfe9; */
+  border-top: 2px solid #d7dfe9;
+  border-left: 2px solid #d7dfe9;
+  border-right: 2px solid #d7dfe9;
+  padding: 0.1em 1em;
+}
+.list-style {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #7e858e;
+  width: 30%;
+}
+.delete-btn {
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+.list-container:first-child {
+  border-top: 0;
+}
+.list-container:last-child {
+  border-bottom: 2px solid #d7dfe9;
+}
+.del-icon {
+  width: 20px;
+}
+@media all and (max-width: 767px) {
+  .list-style {
+    font-size: 1.6rem;
+  }
+  .del-icon {
+    width: 20px;
+  }
+}

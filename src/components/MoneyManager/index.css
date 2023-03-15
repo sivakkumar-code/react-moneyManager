@@ -1,0 +1,132 @@
+.bg-container {
+  min-height: 100vh;
+}
+.responsive-container {
+  min-width: 700px;
+  max-width: 1200px;
+  /* background-color: red; */
+  margin: auto;
+  padding-top: 8em;
+}
+.main-container {
+  width: 90%;
+  margin: auto;
+  /* background-color: brown; */
+}
+.banner-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  background-size: cover;
+  padding: 6em;
+  width: 100%;
+  border-radius: 20px;
+}
+.user-name {
+  font-size: 3.4rem;
+  margin-top: 0;
+  color: #1e293b;
+}
+.welcome-msg {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #475569;
+}
+.highlight {
+  color: #0b69ff;
+}
+.input-output-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 3em;
+}
+.title-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2em;
+}
+.amount-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2em;
+}
+.type-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 2em;
+}
+.input-container {
+  border: 2px solid #d7dfe9;
+  border-radius: 15px;
+  width: 48%;
+  padding: 2.5em;
+}
+.output-container {
+  border: 2px solid #d7dfe9;
+  border-radius: 15px;
+  width: 48%;
+  padding: 2.5em;
+}
+.holder {
+  padding: 2.4em;
+  border: 2px solid #d7dfe9;
+  border-radius: 15px;
+  min-height: 85%;
+}
+.ul-container {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.output-title-style {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 2px solid #d7dfe9;
+  padding: 0.1em 1em;
+}
+.output-title-style p {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+.title {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #7e858e;
+  margin-bottom: 0.5em;
+}
+.input-ele {
+  padding: 0.5em 1em;
+  font-size: 1.6rem;
+  outline: none;
+}
+.select-container {
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding: 0.5em 1em;
+  outline: none;
+}
+.button {
+  color: #ffffff;
+  border: none;
+  background-color: #0b69ff;
+  font-size: 2rem;
+  padding: 0.5em 1em;
+  border-radius: 8px;
+}
+
+@media all and (max-width: 767px) {
+  .responsive-container {
+    min-width: 350px;
+    max-width: 700px;
+  }
+  .input-output-container {
+    flex-direction: column;
+  }
+  .input-container {
+    margin-bottom: 2em;
+    width: 100%;
+  }
+  .output-container {
+    width: 100%;
+    margin-bottom: 2em;
+  }
+}
